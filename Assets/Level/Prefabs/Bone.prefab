@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 1336482069386258731}
   - component: {fileID: 5554358546383913619}
   - component: {fileID: 232807325254091642}
-  - component: {fileID: 5795802009651672297}
   - component: {fileID: 7523674896576786633}
   - component: {fileID: 1970737798602767427}
+  - component: {fileID: -1241650256968168969}
   m_Layer: 0
   m_Name: Bone
   m_TagString: Untagged
@@ -100,18 +100,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 40
---- !u!114 &5795802009651672297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100930234830636640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 221aabf927786d540a58df56206efc6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &7523674896576786633
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -160,3 +148,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.6528887, y: 0.12128265, z: 0.29866803}
   m_Center: {x: 0, y: 0.060641326, z: 0}
+--- !u!114 &-1241650256968168969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100930234830636640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

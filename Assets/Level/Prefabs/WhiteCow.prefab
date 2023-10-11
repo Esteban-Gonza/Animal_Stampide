@@ -1423,8 +1423,9 @@ GameObject:
   - component: {fileID: 5282180995244113866}
   - component: {fileID: 6625543211144481871}
   - component: {fileID: 5849694317325392509}
-  - component: {fileID: 2769625678956910212}
   - component: {fileID: 4267329119553289625}
+  - component: {fileID: 2701910424525972422}
+  - component: {fileID: 5622952507295460751}
   m_Layer: 0
   m_Name: WhiteCow
   m_TagString: Untagged
@@ -1482,18 +1483,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
---- !u!114 &2769625678956910212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7252882552385892985}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 221aabf927786d540a58df56206efc6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &4267329119553289625
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1515,6 +1504,30 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 11, y: 30, z: 45}
   m_Center: {x: 0, y: 14, z: 0}
+--- !u!114 &2701910424525972422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7252882552385892985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5622952507295460751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7252882552385892985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7472987930827938312
 GameObject:
   m_ObjectHideFlags: 0

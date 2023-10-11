@@ -519,6 +519,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1039974809}
   - component: {fileID: 1039974808}
+  - component: {fileID: 1039974810}
   m_Layer: 0
   m_Name: SpawnManager
   m_TagString: Untagged
@@ -541,7 +542,7 @@ MonoBehaviour:
   spaenRangeX: 20
   spawnPosZ: 20
   startDelay: 2
-  spawnInterval: 1.5
+  spawnInterval: 0.5
   animalPrefabs:
   - {fileID: 6785876701671613572, guid: 37d5915f3e2f8fa4b9080ccadedbb027, type: 3}
   - {fileID: 8420738458229001761, guid: bd88f5b16477678408f770fa293e4bfe, type: 3}
@@ -561,6 +562,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1039974810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039974807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45c0e1f24e2ce4a5b9bf1f3a7499cd45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pooledObjects: []
+  objectToPool: {fileID: 100930234830636640, guid: 53e6fa563fe4efb4e93c8060e0d1ad0e, type: 3}
+  amountToPool: 20
 --- !u!850595691 &1489292161
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -1771,11 +1787,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 556928178919789444}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe858bfb95625c448b0a5de51a0b1272, type: 3}
+  m_Script: {fileID: 11500000, guid: 38e917c52987daa41af6a0305d9813c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
-  xRange: 16
   projectilePrefab: {fileID: 100930234830636640, guid: 53e6fa563fe4efb4e93c8060e0d1ad0e, type: 3}
 --- !u!4 &556928178919886824
 Transform:
